@@ -108,22 +108,6 @@ div.alice-carousel{
   }
 }
 
-.encrypted-chat-responsive-skeleton {
-  position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-}
-
-@media (min-width: 1200px) {
-  .encrypted-chat-responsive-skeleton {
-    width: 457px;
-    max-width: 457px;
-    height: 213px;
-    min-height: 213px;
-  }
-}
-
 .actas-italianas-responsive-img {
   height: fit-content;
   width: 100%;
@@ -136,21 +120,8 @@ div.alice-carousel{
   }
 }
 
-.actas-italianas-responsive-skeleton {
-  position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-}
 
-@media (min-width: 1200px) {
-  .actas-italianas-responsive-skeleton {
-    width: 457px;
-    max-width: 457px;
-    height: 231px;
-    min-height: 231px;
-  }
-}
+
 
 .plumarii-responsive-img {
   height: fit-content;
@@ -192,21 +163,19 @@ div.alice-carousel{
   }
 }
 
-.lonely-responsive-skeleton {
-  position: relative;
+.chat-responsive-img {
+  height: fit-content;
   width: 100%;
   max-width: 421px;
-  height: 183px; 
 }
 
 @media (min-width: 1200px) {
-  .lonely-responsive-skeleton {
+  .chat-responsive-img {
     width: 457px;
     max-width: 457px;
-    height: 158px;
-    min-height: 158px;
   }
 }
+
 
 .varios-responsive-img {
   height: fit-content;
@@ -217,22 +186,6 @@ div.alice-carousel{
   .varios-responsive-img {
     width: 457px;
     max-width: 457px;
-  }
-}
-
-.varios-responsive-skeleton {
-  position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-}
-
-@media (min-width: 1200px) {
-  .varios-responsive-skeleton {
-    width: 457px;
-    max-width: 457px;
-    height: 167px;
-    min-height: 167px;
   }
 }
 
@@ -249,27 +202,6 @@ div.alice-carousel{
   }
 }
 
-.buenos-negocios-responsive-skeleton {
-  position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-}
-
-@media (min-width: 1200px) {
-  .buenos-negocios-responsive-skeleton {
-    width: 457px;
-    max-width: 457px;
-    height: 317px;
-    min-height: 317px;
-    
-  }
-}
-
-
-
-
-
 .asistente-virtual-ia-responsive-img {
   height: fit-content;
   width: 100%;
@@ -284,21 +216,247 @@ div.alice-carousel{
 }
 
 
-  .asistente-virtual-ia-responsive-skeleton {
-    position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-  }
 
-  @media (min-width: 1200px) {
-    .asistente-virtual-ia-responsive-skeleton {
-      width: 457px;
-      max-width: 457px;
-    height: 229px;
-    min-height: 229px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VARIOS */
+.varios-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.varios-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .varios-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
   }
+}
+@media (min-width: 1200px) {
+  .varios-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 167px !important;
+    min-height: 167px !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* ENCRYPTED CHAT */
+.encrypted-chat-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.encrypted-chat-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .encrypted-chat-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .encrypted-chat-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 213px !important;
+    min-height: 213px !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* ACTAS ITALIANAS */
+.actas-italianas-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.actas-italianas-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .actas-italianas-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .actas-italianas-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 231px !important;
+    min-height: 231px !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* LONELY */
+.lonely-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.lonely-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .lonely-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .lonely-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 158px !important;
+    min-height: 158px !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* ASISTENTE VIRTUAL IA */
+.asistente-virtual-ia-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.asistente-virtual-ia-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .asistente-virtual-ia-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .asistente-virtual-ia-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 229px !important;
+    min-height: 229px !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* CHAT */
+.chat-responsive-skeleton {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 421px !important;
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+.chat-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .chat-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .chat-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 219px !important;
+    min-height: 219px !important;
+    padding-top: 0 !important;
+  }
+}
+
+
+/* Versión con aspecto inicial basado en calc(100% / 2.31) */
+.buenos-negocios-responsive-skeleton {
+  position: relative;
+  width: 100% !important;
+  max-width: 421px !important;
+  /* Se fuerza la altura mediante el truco del "aspect ratio" con padding */
+  height: 0 !important;
+  padding-top: calc(100% / 2.31) !important;
+}
+
+/* Contenido absoluto dentro del contenedor para ocupar todo el espacio */
+.buenos-negocios-responsive-skeleton > * {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Para pantallas entre 600px y 1199px: altura fija */
+@media (min-width: 600px) and (max-width: 1199px) {
+  .buenos-negocios-responsive-skeleton {
+    height: 183px !important;
+    padding-top: 0 !important; /* Para anular el aspecto calculado */
+  }
+}
+
+/* Para pantallas a partir de 1200px: altura y ancho fijos */
+@media (min-width: 1200px) {
+  .buenos-negocios-responsive-skeleton {
+    width: 457px !important;
+    max-width: 457px !important;
+    height: 317px !important;
+    min-height: 317px !important;
+    padding-top: 0 !important; /* Se anula el "calc" anterior */
+  }
+}
 
 
 
@@ -306,34 +464,9 @@ div.alice-carousel{
 
   
 
-.chat-responsive-img {
-  height: fit-content;
-  width: 100%;
-  max-width: 421px;
-}
 
-@media (min-width: 1200px) {
-  .chat-responsive-img {
-    width: 457px;
-    max-width: 457px;
-  }
-}
 
-.chat-responsive-skeleton {
-  position: relative;
-  width: 100%;
-  max-width: 421px;
-  height: 183px; 
-}
 
-@media (min-width: 1200px) {
-  .chat-responsive-skeleton {
-    width: 457px;
-    max-width: 457px;
-    height: 219px;
-    min-height: 219px;
-  }
-}
 
 
 
