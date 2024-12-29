@@ -51,7 +51,7 @@ const InfiniteSliderDesktop = () => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        width: '100%',
+        width: '100% !important',
         maxWidth: '467px',
         height: 'fit-content',
         marginTop: '35px',

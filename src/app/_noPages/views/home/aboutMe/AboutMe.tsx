@@ -36,6 +36,8 @@ const AboutMe = () => {
           minHeight: '55px',
           gap: '11px',
           alignItems: 'center',
+          marginBottom: '-10px',
+
         }}
       >
         <Box sx={{ width: '20px', height: '20px' }}>

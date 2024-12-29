@@ -19,7 +19,7 @@ const Projects = () => {
         width: '100%',
         maxWidth: '467px',
         height: 'fit-content',
-        maxHeight: '473px',
+        maxHeight: '483px',
         marginTop: '70px',
         padding: '10px 16px 24px',
         alignItems: 'center',
@@ -31,7 +31,7 @@ const Projects = () => {
           padding: '16px 32px 32px 32px',
           width:'1021px',
           maxWidth: '1021px',
-          maxHeight: '608px',
+          maxHeight: '618px',
         },
       }}
     >
@@ -66,6 +66,7 @@ const Projects = () => {
           width: '100%',
           height: 'fit-content',
           overflowY: 'auto',
+          marginTop: '10px',
           '&::-webkit-scrollbar': {
             width: '5px',
           },

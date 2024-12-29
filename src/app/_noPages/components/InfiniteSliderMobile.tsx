@@ -51,7 +51,7 @@ const InfiniteSliderMobile = () => {
         display: 'flex',
         flexDirection: 'column',
         minWidth: '100%',
-        width: '100%',
+        width: '100% !important',
         maxWidth: '467px !important',
         height: 'fit-content',
         marginTop: '35px',
@@ -123,7 +123,7 @@ const InfiniteSliderMobile = () => {
           overflow: 'hidden',
           backgroundColor: '#252525',
           mx: 'auto',
-          mt: 3,
+          mt: 2,
           width: '100%',
         }}
       >
@@ -133,37 +133,39 @@ const InfiniteSliderMobile = () => {
           animate={controls} // Usa los controles para manejar la animación
         >
           {duplicatedSlides.map((slide, index) => (
-            <Box
-              key={index}
-              sx={{
-                flexShrink: 0,
-                height: '320px',
-                minWidth: '320px',
-                width: '100%',
-                mr: 2,
-              }}
-            >
-              <Box
-                sx={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  height: '100%',
-                }}
-              >
-                <img
-                  src={slide.icon}
-                  alt={`Slide ${index + 1}`}
-                  style={{
-                    height: '100%',
-                    width: 'auto',
-                    objectFit: 'cover',
-                    cursor: 'pointer',
-                  }}
-                />
-              </Box>
-            </Box>
-          ))}
+  <Box
+    key={index}
+    sx={{
+      flexShrink: 0, // Evita que el slide se reduzca más allá de su contenido
+      width: 'calc(100% - 20px)', // Ajusta al ancho del contenedor padre con margen interno
+      maxWidth: '300px', // Limita el ancho máximo del slide
+      height: 'auto', // Ajusta automáticamente la altura según el contenido
+      mr: 2, // Margen derecho para el espacio entre slides
+      overflow: 'hidden', // Asegura que el contenido no desborde el slide
+    }}
+  >
+    <Box
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100%',
+      }}
+    >
+      <img
+        src={slide.icon}
+        alt={`Slide ${index + 1}`}
+        style={{
+          width: '100%', // La imagen ocupa el ancho completo del slide
+          height: 'auto', // Ajusta la altura automáticamente
+          objectFit: 'cover', // Recorta la imagen si es necesario para llenar el espacio
+          cursor: 'pointer',
+        }}
+      />
+    </Box>
+  </Box>
+))}
+
         </motion.div>
       </Box>
     </Box>

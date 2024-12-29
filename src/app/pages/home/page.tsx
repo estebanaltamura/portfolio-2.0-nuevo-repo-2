@@ -49,13 +49,13 @@ const Home: React.FC = () => {
        
       </Box>
       <AboutMe />
-      {/* <Box sx={{  width: '100%', maxWidth:'467px', '@media(min-width: 1200px)': {
+      <Box sx={{  width: '100%', maxWidth:'467px', '@media(min-width: 1200px)': {
           maxWidth: '1021px',
           maxHeight: '608px',
         },
  }}>
         {isMobile ? <InfiniteSliderMobile /> : <InfiniteSliderDesktop />}
-      </Box> */}
+      </Box>
       
       
     </>
