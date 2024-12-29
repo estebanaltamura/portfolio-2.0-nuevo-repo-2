@@ -1,5 +1,5 @@
 import React from 'react';
-import '../global.css';
+import './global.css';
 
 export const metadata = {
   title: 'Portfolio Andrés Altamura',
