@@ -117,6 +117,7 @@ export interface IExperiences {
 interface IStack {
   iconSrc: string;
   doubleWidth?: boolean;
+  name: string; 
 }
 
 {
@@ -1102,43 +1103,66 @@ export const stack: IStack[] = [
   {
     iconSrc: '/icons/stackIcons/nextIcon.svg',
     doubleWidth: true,
+    name: 'Next',
   },
   {
     iconSrc: '/icons/stackIcons/reactIcon.svg',
+    name: 'React',
+
   },
   {
     iconSrc: '/icons/stackIcons/tsIcon.svg',
+    name: 'Typescript',
+
   },
   {
     iconSrc: '/icons/stackIcons/jsIcon.svg',
+    name: 'Javascript',
+
   },
 
   {
     iconSrc: '/icons/stackIcons/htmlIcon.svg',
     doubleWidth: true,
+    name: 'HTML',
+
   },
   {
     iconSrc: '/icons/stackIcons/cssIcon.svg',
+    name: 'CSS',
+
   },
   {
     iconSrc: '/icons/stackIcons/nodeIcon.svg',
+    name: 'Node',
+
   },
   {
     iconSrc: '/icons/stackIcons/githubIcon.svg',
+    name: 'Github',
+
   },
   {
     iconSrc: '/icons/stackIcons/muiIcon.svg',
     doubleWidth: true,
+    name: 'Material UI',
+
   },
 
   {
     iconSrc: '/icons/stackIcons/firebaseIcon.svg',
+    name: 'Firebase',
+
   },
   {
     iconSrc: '/icons/stackIcons/awsIcon.svg',
     doubleWidth: true,
+    name: 'AWS',
+
   },
   {
-    iconSrc: '/icons/stackIcons/jestIcon.svg',
+    iconSrc: '/icons/stackIcons/playwrightIcon.svg',
+    name: 'Playwright',
+
   },
 ];

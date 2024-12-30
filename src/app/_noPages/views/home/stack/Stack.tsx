@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material';
+import Tooltip from '@mui/material/Tooltip';
 import { stack } from 'JSONs/JSONprojects';
 
 const Stack = () => {
@@ -59,35 +60,61 @@ const Stack = () => {
       >
         {stack.map((stackItem, index) => {
           return (
-            <Box
-              key={index}
-              sx={{
-                height: '60px',
-                width: stackItem.doubleWidth
-                  ? 'calc((100% - 20px) * 0.46)'
-                  : 'calc((100% - 20px) * 0.27)',
-                padding: '10px',
-                borderRadius: '8px',
-                position: 'relative',
-                overflow: 'hidden',
-                border: '1px solid rgba(255, 255, 255, 0.3)',
-                '@media(min-width: 450px)': {
-                  height: '70px',
-                },
-                '@media(min-width: 1200px)': {
-                  padding: '15px',
-
-                  height: '81px',
-                  width: stackItem.doubleWidth ? '165px' : '108px',
-                },
-              }}
-            >
-              <img
-                src={stackItem.iconSrc}
-                alt=''
-                style={{ width: '100%', height: '100%' }}
-              />
-            </Box>
+            <Tooltip
+  key={index}
+  title={stackItem.name}
+  placement="bottom"
+  arrow
+  PopperProps={{
+    modifiers: [
+      {
+        name: 'offset',
+        options: {
+          offset: [0, -6], // Ajusta la distancia
+        },
+      },
+    ],
+  }}
+  sx={{
+    '& .MuiTooltip-tooltip': {
+      backgroundColor: '#6E65A7 !important', // Fondo del Tooltip
+      color: 'white !important', // Color del texto
+      fontSize: '14px !important', // Tamaño de fuente
+      fontWeight: 'bold !important', // Peso del texto
+    },
+    '& .MuiTooltip-arrow': {
+      color: '#6E65A7 !important', // Color de la flecha
+    },
+  }}
+>
+  <Box
+    sx={{
+      height: '60px',
+      width: stackItem.doubleWidth
+        ? 'calc((100% - 20px) * 0.46)'
+        : 'calc((100% - 20px) * 0.27)',
+      padding: '10px',
+      borderRadius: '8px',
+      position: 'relative',
+      overflow: 'hidden',
+      border: '1px solid rgba(255, 255, 255, 0.3)',
+      '@media(min-width: 450px)': {
+        height: '70px',
+      },
+      '@media(min-width: 1200px)': {
+        padding: '15px',
+        height: '81px',
+        width: stackItem.doubleWidth ? '165px' : '108px',
+      },
+    }}
+  >
+    <img
+      src={stackItem.iconSrc}
+      alt={stackItem.name}
+      style={{ width: '100%', height: '100%' }}
+    />
+  </Box>
+</Tooltip>
           );
         })}
       </Box>
