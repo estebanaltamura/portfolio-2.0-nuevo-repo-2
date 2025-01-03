@@ -38,7 +38,7 @@ const InfiniteSliderDesktop = () => {
         x: [x.get(), -400 * duplicatedSlides.length], // Continuar desde la posición actual
         transition: {
           ease: 'linear',
-          duration: (190
+          duration: (400
              * (duplicatedSlides.length * 400 + x.get())) / (duplicatedSlides.length * 400), // Calcular la duración basada en la distancia restante
           repeat: Infinity,
           repeatType: 'loop',
