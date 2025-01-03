@@ -13,6 +13,7 @@ const slides = [
   { icon: '/recommendationsImages/2.png' },
   { icon: '/recommendationsImages/3.svg' },
   { icon: '/recommendationsImages/4.svg' },
+  { icon: '/recommendationsImages/5.svg' },
  
 ];
 
