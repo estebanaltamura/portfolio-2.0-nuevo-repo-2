@@ -280,7 +280,7 @@ const Profile = () => {
               </Box>
             </CustomTooltip>
 
-            <a href='https://drive.google.com/uc?export=download&id=1X7VTxJ9HQAAyqZxnQPZNpxsI3RsJtpG7'>
+            <a href='https://drive.google.com/file/d/1zWEyXIiC_N5Olp-FrZAPF23WslwYMd1Q/view?usp=sharing'>
               <CustomTooltip
                 title='Descargar cv'
                 classes={{ tooltip: tooltipClasses.tooltip }}
