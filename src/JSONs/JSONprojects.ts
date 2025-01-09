@@ -161,7 +161,7 @@ export const experiences: IExperiences[] = [
   {
     id: 'actas-italianas-express',
     name: 'Actas Italianas Express',
-    period: '2022 - Actualidad',
+    period: '2022 - 2023',
     role: 'Desarrollador Front-End & Founder',
     summary: {
       projectId: 'actas-italianas-express',
@@ -224,7 +224,7 @@ export const experiences: IExperiences[] = [
   {
     id: 'lonely',
     name: 'Lonely',
-    period: '2016 - 2022',
+    period: '2016 - 2020',
     role: 'Desarrollador Front-End, Co-Founder',
     summary: {
       projectId: 'lonely',
@@ -391,7 +391,7 @@ export const projects: IProjects[] = [
   {
     id: 'actas-italianas-express',
     name: 'Actas Italianas Express',
-    period: '2022 - Actualidad',
+    period: '2022 - 2023',
     role: 'Desarrollador Front-end & Founder',
     details: [
       '<b>Tecnologías</b>',
@@ -634,7 +634,7 @@ export const projects: IProjects[] = [
   {
     id: 'lonely',
     name: 'Lonely',
-    period: '2016 - 2022',
+    period: '2016 - 2020',
     role: 'Co-founder, finanzas & marketing',
     details: [
       '<b>Tecnologías</b>',
@@ -722,8 +722,8 @@ export const projects: IProjects[] = [
         widthImageDescription: '300px',
       },
 
-      '<b>2020 Pandemia</b>',
-      'A comienzos de 2020, el consumo en Argentina estaba cayendo. En marzo, la pandemia nos sorprendió, al igual que al resto del mundo. Teníamos tres showrooms abiertos y empleados a quienes responder, pero para sorpresa de todos, las ventas se dispararon. Pudimos cerrar los showrooms físicos y reabsorber al personal, centralizando todas las operaciones en nuestra ubicación de despacho.',
+      '<b>2020 Pandemia y nuevos proyectos</b>',
+      'A comienzos de 2020, el consumo en Argentina estaba cayendo y como si esto fuera poco, comenzó la pandemia. Estas condiciones nos llevaron a la conclusión que estabamos con el tiempo y la motivación para emprender nuevamente con una idea que teniamos hace mucho: emprender en Estados unidos. Ese fue nuestro siguiente proyecto y se llamó Plumarii (Presente en este portfolio).',
       {
         type: 'image',
         src: '/images/lonely/lonelyImage.jpg',
@@ -733,10 +733,8 @@ export const projects: IProjects[] = [
         imageDescription: 'Campaña publicitaria básicos',
       },
 
-      'A partir de ese año, centralizamos toda nuestra operación, manteniendo únicamente el showroom original.',
 
-      '<b>2022 Cierre</b>',
-      'Después de muchos años trabajando juntos en varios emprendimientos, mi socia se fue a vivir a Barcelona. Decidimos que no era lógico continuar a distancia ni que yo siguiera solo. Lonely fue una gran experiencia de aprendizaje. Hasta ese momento, no había tenido un emprendimiento tan exitoso, complejo y con tanto trabajo en equipo.',
+     
     ],
   },
   {
@@ -1089,7 +1087,7 @@ export const projects: IProjects[] = [
 ];
 
 export const aboutMe: string[]=[
-'Desarrollador Frontend con 5 años de experiencia, actual referente tecnológico de Koi ventures.',
+'Desarrollador Frontend con 6 años de experiencia, actual referente tecnológico de Koi ventures.',
 'Mi experiencia me da gran versatilidad y capacidad para gestionar equipos multidisciplinarios y proyectos complejos.Tengo experiencia en startups y me apasiona la creación de productos y la resolución de problemas a través de iteraciones cortas y constantes.',
 'En los últimos años, he co-fundado exitosamente empresas en Argentina y EE.UU., absorbiendo valiosas lecciones tanto de los éxitos como de los fracasos.',
 
