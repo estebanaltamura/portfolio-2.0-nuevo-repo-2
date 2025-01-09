@@ -80,7 +80,7 @@ const WorkExperiences = () => {
         </Box>
         <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
         <a
-          href='https://drive.google.com/file/d/1GKQ9fQ8HoihChBanP-RV4VmJtluuFJuB/view?usp=sharing'
+          href='https://drive.google.com/file/d/1GKQ9fQ8HoihChBanP-RV4VmJtluuFJuB/view?usp=sharing' target='_blank' rel='noopener noreferrer'
           onClick={downloadCVClickHandler}
         >
           <Button
@@ -116,7 +116,7 @@ const WorkExperiences = () => {
                   textTransform: 'none',
                 }}
               >
-                {isDownloadingCV ? 'Descargando...' : 'Descargar CV'}
+                {isDownloadingCV ? 'Abrir CV' : 'Abrir CV'}
               </Typography>
             )}
           </Button>
