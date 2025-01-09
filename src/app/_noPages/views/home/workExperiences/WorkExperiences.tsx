@@ -106,7 +106,16 @@ const WorkExperiences = () => {
             }}
           >
             {isDownloadButtonHovered && !isDownloadingCV ? (
-              <img src='/icons/arrowDownloadButtonIcon.svg' alt='' />
+              <Typography
+              sx={{
+                fontSize: '12px',
+                fontWeight: '600',
+                color: 'white',
+                textTransform: 'none',
+              }}
+            >
+              {isDownloadingCV ? 'Abrir CV' : 'Abrir CV'}
+            </Typography>
             ) : (
               <Typography
                 sx={{
