@@ -285,7 +285,16 @@ const Profile = () => {
 
 
             <a href='https://drive.google.com/file/d/1GKQ9fQ8HoihChBanP-RV4VmJtluuFJuB/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
-              
+              <CustomTooltip
+                title='Ver cv'
+                classes={{ tooltip: tooltipClasses.tooltip }}
+                sx={{
+                  [`& .${tooltipClasses.tooltip}`]: {
+                    fontSize: '14px',
+                    color: '#BEBABA',
+                  },
+                }}
+              >
                 <Box
                   onClick={downloadCVClickHandler}
                   sx={{
@@ -296,7 +305,7 @@ const Profile = () => {
                     cursor: 'pointer',
                   }}
                 >
-                  
+                 
 
                   <img
                     src='/icons/profileIcons/cvIcon.svg'
@@ -304,6 +313,7 @@ const Profile = () => {
                     style={{ width: '23px', height: '23px' }}
                   />
                 </Box>
+              </CustomTooltip>
             </a>
           </Box>
         </Box>
