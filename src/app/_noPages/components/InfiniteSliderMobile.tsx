@@ -9,11 +9,13 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 // Define el array de slides con imágenes
 const slides = [
+  { icon: '/recommendationsImages/5.svg' },
+  { icon: '/recommendationsImages/6.svg' },
   { icon: '/recommendationsImages/1.svg' },
   { icon: '/recommendationsImages/2.png' },
   { icon: '/recommendationsImages/3.svg' },
   { icon: '/recommendationsImages/4.svg' },
-  { icon: '/recommendationsImages/5.svg' },
+ 
  
 ];
 
