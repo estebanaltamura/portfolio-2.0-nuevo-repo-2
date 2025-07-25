@@ -1,9 +1,11 @@
-import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+// React router dom
+import { Navigate, Route, Routes } from 'react-router-dom';
+
+// Pages
 import Home from 'app/pages/home/page';
 import ExperienceDetail from 'app/pages/experience-detail/[id]/ExperienceDetail';
 import ProjectDetail from 'app/pages/project-detail/[id]/ProjectDetail';
-
+import ClaimsAndRefundsPolicy from 'app/pages/claims-and-refunds-policy/ClaimsAndRefundsPolicy';
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
             element={
               <ProjectDetail />
             }           
+          />
+          <Route
+            path="/claims-and-refunds-policy"
+            element={
+              <ClaimsAndRefundsPolicy />
+            }
           />
         </Routes>
     
