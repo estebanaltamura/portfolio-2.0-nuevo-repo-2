@@ -404,7 +404,7 @@ export const projects: IProjects[] = [
       {
         type: 'linksToWebsiteAndGithub',
         links: {
-          website: 'https://actasitalianasexpress.online/',
+          website: 'https://www.actasitalianasexpress.com/',
           github: 'https://github.com/estebanaltamura/actas-italianas-express',
         },
         marginBottom: 40,
@@ -764,7 +764,7 @@ export const projects: IProjects[] = [
       {
         type: 'linksToWebsiteAndGithub',
         links: {
-          website: 'https://encrypted-chat.xyz/home',
+          website: 'https://encrypted-chat-red.vercel.app/home',
           github: 'https://github.com/estebanaltamura/encrypted-chat-client',
         },
         marginBottom: 40,
@@ -836,7 +836,7 @@ export const projects: IProjects[] = [
       {
         type: 'linksToWebsiteAndGithub',
         links: {
-          website: 'https://pandora-backpacks.xyz/home',
+          website: 'https://entrega-final-altamura.vercel.app',
           github: 'https://github.com/estebanaltamura/pandora-backpacks',
         },
         marginBottom: 40,
@@ -907,7 +907,7 @@ export const projects: IProjects[] = [
       {
         type: 'linksToWebsiteAndGithub',
         links: {
-          website: 'https://flix-finder.xyz/movies',
+          website: 'https://flixfinder-estebanaltamuras-projects.vercel.app/movies',
           github: 'https://github.com/estebanaltamura/flixfinder',
         },
 
